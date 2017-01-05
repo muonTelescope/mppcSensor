@@ -1,16 +1,17 @@
 # MPPC Sensor
 The board stack has a MPPC, preamp, temperature sensor, and LED. Having the pre-amp on board, just millimeters from the sensor allows excellent signal integrity, even in high noise environments. Also having the temperature sensor on the sensor, allows for fine adjustment due to local temperature fluctuations, as the gain is dependent on temperature and bias voltage, a constant gain can be maintained by changing the bias in response to temperature.
 
-![][mountedBoard]
+![][isoAssembled]
 
 ## Hardware
-This board houses a surface mount 1.3mm MPPC by Hamamatsu. Specifically S13360-13**PE series. The signal is amplified with a TI OPA846 op-amp. There is a LED as well as a 100K NTC thermistor. The boards are all 7mm tall, 25mm wide and approximately 6.4mm in depth without the pins. The spacer board blocks out excess light from reaching the MPPC, and provides isolation from the LED forcing it to go through the scintillator. It is attached with two 4-40 screws that can go directly into scintillator or a mounting block. 
+This board houses a surface mount 2.0mm MPPC by Hamamatsu. Specifically S13360-20**VE series. The signal is amplified with a TI OPA846 op-amp. There is a LED as well as a 100K NTC thermistor. The boards are all 7mm tall, 25mm wide and approximately 6.4mm in depth without the pins. The spacer board blocks out excess light from reaching the MPPC, and provides isolation from the LED forcing it to go through the scintillator. It is attached with two 4-40 screws that can go directly into scintillator or a mounting block. 
 
-![][explodedView]
-
+![][explodedViewISO2]
 
 ## Cable
 There are eight pins attached to back of the final board. Those pins break out all signals needed. There is a corner mark on the PCB that lies in the top left corner. On single ended signals, *Sig-* is connected to *GND*.
+
+![][explodedViewISO1]
 
 | Corner     |           |           |           |           |           |           |
 | ---------- | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -32,8 +33,9 @@ The cable used is a 28AWG CAT6 cable, Monoprice's [Slimrun](http://www.monoprice
 | MD3+         | White Brown  | Signal+       | Sig+ |
 | MD3-         | Brown        | Signal-       | Sig- |
 
-![][mppcSesnorFront]
+![][mountedBoard]
 
-[explodedView]: cad/renderings/explodedView.png "Exploded view of board assembly"
-[mppcSesnorFront]: cad/renderings/mppcSesnorFront.png "Front View Showing MPPC"
-[mountedBoard]: cad/renderings/mountedBoard.jpg "Assembled board attached to finger scintilator"
+[explodedViewISO1]: cad/renderings/mppcSensorISO1.png "Exploded view of board assembly connector side."
+[explodedViewISO2]: cad/renderings/mppcSensorISO2.png "Exploded view of board assembly MPPC side."
+[isoAssembled]:    cad/renderings/mppcSensorISOAssembled.png "Fully assembled module."
+[mountedBoard]:     cad/renderings/mountedBoard.jpg "Assembled board attached to finger scintilator"
