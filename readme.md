@@ -4,7 +4,7 @@ The sensor board has just the MPPC and a coaxial connector to feed in the high v
 ![][renderAssembly]
 
 ## Hardware
-This board houses a surface mount 2.0mm MPPC by Hamamatsu. Specifically, S13360-20**VE series. The signal is amplified with a TI OPA846 op-amp. There is a LED as well as a 100K NTC thermistor. The boards are all 7mm tall, 25mm wide and approximately 6.4mm in depth without the pins. The spacer board blocks out excess light from reaching the MPPC and provides isolation from the LED forcing it to go through the scintillator. It is attached with two 4-40 screws that can go directly into scintillator or a mounting block. 
+This board houses a surface mount 2.0mm MPPC by Hamamatsu. Specifically, S13360-20**VE series. Both ports are routed directly out to the connector. The board is  0.25in (6.35) tall, 0.5in (12.7mm) wide and approximately XXin deep. It is attached to the housing with two M2 screws. 
 
 ![][renderFront]
 
@@ -14,12 +14,12 @@ A U.FL coaxial connector is mounted on the back. It is rated for 50 mattings. HV
 ![][renderBack]
 
 ## Housing
-Housing is designed in Autodesk invenor, more info later.
+Housing is designed in Autodesk inventor, more info later.
 
 ## Fabrication/Assembly
 Documents such as gerbers, PNP, BOM, STL, images and renderings are availible in the `production` directory.
 
-Assembly requires PNP on two sides, but ideally should be done manually. The MPPC should be handeled delicately and its part number and parameters should be kept. After assembly place the part back in its original bag. 
+The PCB is a two sided 63mil (1.6mm) with 6/6 routing. Front and back silk and soldermask is not needed but prefered. Assembly requires PNP on two sides, but ideally should be done manually. The MPPC should be handeled delicately and its part number and parameters should be kept. After assembly place the part back in its original bag. 
 
 ### Front PCB
 Only MPPC on front with though mounting holes shown. The polarity is shown with the notch visible at the bottom. 
@@ -36,7 +36,7 @@ Solder the back first (reflow or by hand) before placing and reflowing the MPPC,
 ### Housing
 The housing is to be made form a opaque material. Can be 3D printed or IM (if design permits). More infor after design.
 
-[renderAssembly]: production/images/renderBack.png "Full assembly permutations inculding housings."
+[renderAssembly]: production/images/renderAssembly.png "Full assembly permutations inculding housings."
 [renderFront]: production/images/renderFront.png "Assembled board front render showing MPPC."
 [renderBack]: production/images/renderBack.png "Assembled board back render showing connector."
 [frontAsy]: production/images/frontAsy.png "Component location and markings for front."
