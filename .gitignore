@@ -1,6 +1,25 @@
-*.gbr
+# Autodesk inventor
 *~
 ~*
 OldVersions/
 *.lck
-*-rescue*
+
+
+# Kicad Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+
+# Kicad Netlist files (exported from Eeschema)
+*.net
+
+# Kicad Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
