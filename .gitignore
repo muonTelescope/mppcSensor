@@ -23,3 +23,9 @@ _autosave-*
 # Kicad Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# MAC
+.DS_STORE
+
+# Internal Files
+.internal

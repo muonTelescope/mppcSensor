@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name s13360-2050ve)(type KiCad)(uri ${KIPRJMOD}/components/s13360-2050ve/s13360-2050ve.pretty)(options "")(descr ""))
+  (lib (name "S13360-2050VE")(type "KiCad")(uri "${KIPRJMOD}/components/S13360-2050VE/S13360-2050VE.pretty")(options "")(descr ""))
+  (lib (name "U.FL")(type "KiCad")(uri "${KIPRJMOD}/components/U.FL/U.FL.pretty")(options "")(descr ""))
+  (lib (name "tooling")(type "KiCad")(uri "${KIPRJMOD}/components/tooling/tooling.pretty")(options "")(descr ""))
+  (lib (name "M1.6")(type "KiCad")(uri "${KIPRJMOD}/components/M1.6/M1.6.pretty")(options "")(descr ""))
 )
