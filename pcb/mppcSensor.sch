@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:mppcSensor-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr User 5197 5197
 encoding utf-8
@@ -51,17 +51,6 @@ F 1 "MountingHole" H 900 755 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 800 800 50  0001 C CNN
 F 3 "~" H 800 800 50  0001 C CNN
 	1    800  800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5C710D04
-P 800 1000
-F 0 "H2" H 900 1046 50  0000 L CNN
-F 1 "MountingHole" H 900 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 800 1000 50  0001 C CNN
-F 3 "~" H 800 1000 50  0001 C CNN
-	1    800  1000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

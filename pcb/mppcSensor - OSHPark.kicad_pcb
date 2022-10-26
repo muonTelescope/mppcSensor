@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 12)
     (tracks 11)
     (zones 0)
     (modules 3)
@@ -238,13 +238,16 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.8 3.8) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start -6.8 -4.1) (end -6.8 -2.25) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start -5.75 -4.1) (end -6.8 -4.1) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start -5.75 -2.25) (end -5.75 -4.1) (layer Edge.Cuts) (width 0.15))
   (gr_text "D1\nH1\nH2" (at -8.255 6.35) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 6.8 2.25) (end 6.8 -2.25) (layer Edge.Cuts) (width 0.15))
   (gr_line (start -6.8 2.25) (end 6.8 2.25) (layer Edge.Cuts) (width 0.15))
   (gr_line (start -6.8 -2.25) (end -6.8 2.25) (layer Edge.Cuts) (width 0.15) (tstamp 5C7D8EDC))
-  (gr_line (start 6.8 -2.25) (end -6.8 -2.25) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 6.8 -2.25) (end -5.75 -2.25) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 1.1 -2.5) (end 1.1 2.5) (layer F.CrtYd) (width 0.15) (tstamp 5DB07258))
   (gr_line (start 6.1 -2.5) (end 1.1 -2.5) (layer F.CrtYd) (width 0.15) (tstamp 5DB0725E))
   (gr_line (start 6.1 2.5) (end 6.1 -2.5) (layer F.CrtYd) (width 0.15) (tstamp 5DB0725B))
